@@ -1,0 +1,57 @@
+1. sudo apt-get update
+
+2. sudo apt-get install -y openjdk-8-jdk
+
+3. sudo apt-get install -y git maven
+
+4. wget path of jenkins
+
+5. java -jar jenkins.war
+
+------------------------------
+
+1. sudo apt-get update
+
+2. sudo apt-get install -y tomcat9
+
+3. sudo apt-get install -y tomcat9-admin
+
+4. sudo vim tomcat-users.xml
+
+5. : 1, $d
+
+6. <tomcat-users>
+
+               <user username="admin" password="Welcome@1234" role="manager-script"/>
+   </tomcat-users>
+7. esc -> :wq
+
+8. sudo service tomcat9 restart
+
+9. exit
+
+-----------------------------------
+
+1. sudo apt-get update 
+
+2. sudo apt-get install -y tomcat9
+
+3. sudo apt-get install -y tomcat9-admin
+
+4. sudo vim tomcat-users.xml
+
+5. :1,$d
+
+6. <tomcat-users>
+
+             <user username="admin" password="Welcome@1234" role="manager-script"/>
+  <tomcat-users/>
+
+7. ese  -> :wq
+
+8.sudo service tomcat9 restart
+
+9.exit
+
+-------------------------------------
+
